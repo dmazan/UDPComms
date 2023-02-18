@@ -26,7 +26,7 @@ timeout = socket.timeout
 
 MAX_SIZE = 65507
 
-DEFAULT_IP = "10.0.0.255"
+DEFAULT_IP = "192.168.5.255"
 
 class Publisher:
     def __init__(self, port, ip = DEFAULT_IP):
